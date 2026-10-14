@@ -47,10 +47,7 @@ func _build_ui() -> void:
 	row.add_child(generate_button)
 
 	var info_panel := PanelContainer.new()
-	info_panel.position = Vector2(16, 530 - 34)
-	info_panel.size = Vector2(768, 28)
-	# A viewport é 520 px; manter a faixa de estado dentro dela.
-	info_panel.position = Vector2(12, 488)
+	info_panel.position = Vector2(12, 528)
 	info_panel.size = Vector2(776, 26)
 	layer.add_child(info_panel)
 
