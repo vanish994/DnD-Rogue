@@ -1,0 +1,19 @@
+; D&D Rogue - projeto inicial Godot 4
+config_version=5
+
+[application]
+config/name="D&D Rogue"
+run/main_scene="res://scenes/main.tscn"
+
+[display]
+window/size/viewport_width=800
+window/size/viewport_height=560
+window/size/window_width_override=800
+window/size/window_height_override=560
+window/stretch/mode="canvas_items"
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"
+textures/default_filters/use_nearest_mipmap_filter=false
+textures/default_filters/texture_filter=0
